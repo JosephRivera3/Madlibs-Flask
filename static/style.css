@@ -1,0 +1,26 @@
+body {
+    background-color:grey;
+}
+
+#num1 {
+    border-color: orange;
+    padding: 20px;
+}
+
+#num2 {
+    border-color: orange;
+    padding: 20px;
+}
+
+#div1 {
+    display: grid;
+    justify-content: flex-start;
+}
+
+#div2 {
+    display: grid;
+    justify-content: flex-start;
+
+}
+
+
