@@ -16,6 +16,7 @@ def fill_in_blank():
 @app.route('/completed', methods = ['GET', 'POST'])
 def completed():
     #return "You Submitted the Madlib!"
+    
      return "Thousands of ago"
 
 if __name__ == '__main__':
