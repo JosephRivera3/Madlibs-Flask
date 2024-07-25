@@ -23,6 +23,16 @@ body {
     justify-content: space-around;
 }
 
+.flex-item4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.h1 {
+    color: orange;
+}
+
 #num1 {
     border-color: orange;
     padding: 20px;
@@ -135,5 +145,64 @@ body {
     display: flex;
     justify-content: flex-start;
     margin: 150px;
-    
+    position: absolute;
+    left: 230px;
+}
+#num11 {
+    border-color: orange;
+    padding: 20px;
+}
+
+#div11 {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    position: absolute;
+    right: 306px;
+}
+
+#num12 {
+    border-color: orange;
+    padding: 20px;
+}
+#div12 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 150px;
+    position: absolute;
+    left: 900px;
+}
+
+#num13 {
+    border-color: orange;
+    padding: 20px;
+}
+#div13 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 250px;
+    position: absolute;
+    right: 870px;
+}
+
+#num14 {
+    border-color: orange;
+    padding: 20px;
+}
+#div14 {
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+    position: absolute;
+    left: 130px;
+}
+
+#Submit {
+    width: 130px;
+    height: 50px;
+    margin: 260px;
+    border-radius: 30px;
+    border-color: orange;
+    position: absolute;
+    right: 220px;
 }
