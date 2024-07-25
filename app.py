@@ -17,10 +17,9 @@ def completed():
     if request.method == "POST":
         num1=request.form["Plural noun1"]
     #num2=request.form["Plural noun2"]
-
-    #return "You Submitted the Madlib!"
-
-    return f"<h1> Thousands of {request.form(num1)}ago</h1>"
+    # #return "You Submitted the Madlib!"
+        return render_template("madlib.html")
+    return f"<h1> Thousands of {url_for(num1)}ago </h1>"
 
 if __name__ == '__main__':
         app.run(host='0.0.0.0' , port=80, debug=True)
