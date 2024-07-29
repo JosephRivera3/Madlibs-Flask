@@ -278,3 +278,10 @@ body {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
+span{
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

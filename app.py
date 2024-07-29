@@ -25,7 +25,7 @@ def completed():
         num12=request.form["part of body2"]
         num13=request.form["part of body3"]
         num14=request.form["noun4"]
-        return f"<h1> Thousands of {(num1)} ago, there were calendars that enabled the ancient {(num2)} to divide a year into twelve, each month into {(num3)}, and each week into seven {(num4)}. At first, people told time by sun clock, somethimes known as the {(num5)} dial. Ultimately, they invented the great time keeping devices of today, such as the gandfather, the pocket {(num6)}, the alarm {(num7)}, and, of course, the {(num8)} watch. Children learn about clocks and time almost before they learn the ABCs. They are taught that a day consists of 24 {(num9)}, an hour has 60 {(num10)}, and a minute has 60 {(num11)}. By the time they are in kindergarden, they know if the big {(num12)} is at twelve and the little {(num13)} is at three, and it is o'clock. I wish we could continue this lesson, but we've run out of {(num14)}.</h1>"
+        return render_template("newmadlib.html", num1=num1, num2=num2, num3=num3, num4=num4, num5=num5, num6=num6, num7=num7, num8=num8, num9=num9, num10=num10, num11=num11, num12=num12, num13=num13, num14=num14)
     return render_template("madlib.html", enter="/completed")
     
      #return "You Submitted the Madlib!"
