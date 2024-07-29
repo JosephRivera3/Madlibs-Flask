@@ -30,17 +30,37 @@ body {
 }
 
 .h1 {
-    color: orange;
+    animation-name: colorswitch;
+    transition: 3s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
 }
+
+@keyframes colorswitch {
+    from {color: orange}
+    to {color: purple;}
+    from {border-color: orange;}
+    to {border-color: purple;}
+}
+
 
 #num1 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #num2 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div1 {
@@ -58,6 +78,10 @@ body {
 #num3 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div3 {
@@ -68,6 +92,10 @@ body {
 #num4 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div4 {
@@ -78,6 +106,10 @@ body {
 #num5 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div5 {
@@ -90,6 +122,10 @@ body {
 #num6 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div6 {
@@ -102,6 +138,10 @@ body {
 #num7 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div7 {
@@ -114,6 +154,10 @@ body {
 #num8 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div8 {
@@ -126,6 +170,10 @@ body {
 #num9 {
     border-color: orange;
     padding:20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div9 {
@@ -139,6 +187,10 @@ body {
 #num10 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div10 {
@@ -151,6 +203,10 @@ body {
 #num11 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #div11 {
@@ -164,6 +220,10 @@ body {
 #num12 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #div12 {
     display: flex;
@@ -176,6 +236,10 @@ body {
 #num13 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #div13 {
     display: flex;
@@ -188,6 +252,10 @@ body {
 #num14 {
     border-color: orange;
     padding: 20px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #div14 {
     display: flex;
@@ -205,4 +273,8 @@ body {
     border-color: orange;
     position: absolute;
     right: 220px;
+    transition: 3s;
+    animation-name: colorswitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
